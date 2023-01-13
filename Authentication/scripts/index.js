@@ -1,0 +1,14 @@
+async function main () {
+                        // Our code will go here
+                        const accounts = await ethers.provider.listAccounts();
+                        console.log(accounts);
+                        const VotoToken = await hre.ethers.getContractFactory("VotoToken");
+                        const votoToken = await VotoToken.attach("0xf99980dAF477d1Df093233Ef698D1beD1c191A42");
+                        await votoToken.issueToken("0x339B7C806B8ece034A33002E4Afa6da583279CCB");
+                        }        
+                        main()
+                            .then(() => process.exit(0))
+                            .catch(error => {
+                            console.error(error);
+                            process.exit(1);
+                        });

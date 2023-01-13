@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form autenticazione</title>
+    <meta charset="utf-8" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body class="container">
+    <h1> Form autenticazione </h1>
+
+    <form action="php1.php" method="POST">
+        <table>
+            <tr>
+                <th>
+                    Nome:
+                </th>
+                <td>
+                    <input type="text" placeholder="Nome" name="nome" required>
+                </td>     
+            </tr>
+            <tr>
+                <th>
+                    Cognome:
+                </th>
+                <td>
+                    <input type="text" placeholder="Cognome" name="cognome" required>
+                </td>  
+            </tr>
+            <tr>
+                <th>
+                    Email:
+                </th>
+                <td>
+                    <input type="mail" placeholder="Email" name="email" required>
+                </td>  
+            </tr>
+            <tr>
+                <th>
+                    Numero telefono:
+                </th>
+                <td>
+                    <input type="Phone" placeholder="xxxxxxxxxx" name="numerotelefono" required>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Indirizzo Ethereum:
+                </th>
+                <td>
+                    <input type="text" placeholder="0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" name="indirizzoethereum" maxlength="42" size="42" required>
+                </td>  
+            </tr>
+            <tr>
+                <td>
+                    <input type="Submit" class="btn btn-info" value="Invia" name="">
+                </td> 
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
