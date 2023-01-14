@@ -15,3 +15,7 @@ In the initial authentication phase, the voter will access a web page created in
 There are then two web pages, created in HTML and PHP, which use JavaScript to interact with the smart contract pool and thus enable the deposit and withdrawal of the voting token and ETH.
 
 Finally, through a web page in HTML using JavaScript's library "ethers.js", will be created a dApp that will allow voters to access their MetaMask wallet and then vote by sending their voting token to the smart contract dedicated to voting.
+
+-----
+
+For a complete understanding of the project please refer to the ["Thesis"](https://github.com/brunolazo/Crypto-Voting-Application/blob/main/Thesis.pdf) file.
