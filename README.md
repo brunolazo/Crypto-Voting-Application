@@ -18,4 +18,6 @@ Finally, through a web page in HTML using JavaScript's library "ethers.js", will
 
 -----
 
-For a complete understanding of the project please refer to the ["Thesis"](https://github.com/brunolazo/Crypto-Voting-Application/blob/main/Thesis.pdf) file.
+For a comprehensive understanding of the project in Italian, please refer to the ["Thesis"](https://github.com/brunolazo/Crypto-Voting-Application/blob/main/Thesis.pdf) file.
+
+To access the scientific article related to this project in English, please refer to the ["evoting_etaa_"](https://github.com/brunolazo/Crypto-Voting-Application/blob/main/evoting_etaa_.pdf) file.
